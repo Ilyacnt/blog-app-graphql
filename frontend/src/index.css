@@ -1,0 +1,23 @@
+:root {
+  --primary-color: 255, 255, 255;
+  --background-color: 23, 26, 30;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  color: RGB(var(--primary-color));
+  font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  background-color: RGB(var(--background-color));
+}
+
+#root {
+  height: 100%;
+}
